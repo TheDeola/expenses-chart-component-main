@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 
+  <link rel="stylesheet" type="text/css" href="./styles.css">  <!-- external stylesheet -->
+
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script src="./index.js"></script>
+</head>
+<body>
+  <main class="container">
+    <div class="header">
+      <p>My balance</p>
+      <span>$921.48</span>
+      <img src="./images/logo.svg" alt="logo icon">
+    </div>
+    <div class="main-chart">
+      <span>Spending - Last 7 days</span>
+      <div class="bar-chart" id="barChart">
+        <div class="bar bar-mon"></div>
+        <div class="bar bar-tue"></div>
+        <div class="bar bar-wed"></div>
+        <div class="bar bar-thu"></div>
+        <div class="bar bar-fri"></div>
+        <div class="bar bar-sat"></div>
+        <div class="bar bar-sun"></div>
+      </div>
+      <div class="bar-chart-title">
+        <div class="bar-title">mon</div>
+        <div class="bar-title">tue</div>
+        <div class="bar-title">wed</div>
+        <div class="bar-title">thu</div>
+        <div class="bar-title">fri</div>
+        <div class="bar-title">sat</div>
+        <div class="bar-title">sun</div>
+      </div>
+      <hr>
+      <div class="bar-chart-bottom">
+        <div class="right">
+          <p>Total this month</p>
+          <span class="bold">$478.33</span>
+        </div>
+        <div class="left">
+          <p class="bold">+2.4%</p>
+          <span>from last month</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://thedeola.netlify.app">TheDeola</a>.
+    </div>
+  </main>
+</body>
+</html>
